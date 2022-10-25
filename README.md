@@ -25,7 +25,7 @@ The project is to create a page like Linktree that allows a person show their pe
 - Clone the project
 
 ```bash
-git clone https://github.com/user/html-css-template.git
+git clone https://github.com/MrTaaJ/hng-project-one.git
 
 ```
 
@@ -37,6 +37,6 @@ npm install
 
 ## 👤 Author
 
-- Github: [@author](https://github.com/MrTaaJ)
-- Twitter: [@author](https://twitter.com/mrtaajDeveloper)
-- Linkedin: [@author](https://www.linkedin.com/in/mrtaaj001/)
+- Github: [@mrtaaj](https://github.com/MrTaaJ)
+- Twitter: [@mrtaajDeveloper](https://twitter.com/mrtaajDeveloper)
+- Linkedin: [@mrtaaj001](https://www.linkedin.com/in/mrtaaj001/)
