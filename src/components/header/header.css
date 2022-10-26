@@ -1,0 +1,28 @@
+header{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+nav {
+    position: absolute;
+    right: 16px;
+    top: 20px;
+}
+
+.profile{
+    width: auto;
+    display: grid;
+    place-items: center;
+}
+
+.profile img {
+    height: 88px;
+    width: 88px;
+}
+.title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+}
