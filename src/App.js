@@ -29,7 +29,7 @@ function App() {
       {
         id: 'book_python',
         text: 'Python Books',
-        link: 'https://books.zuri.team/python-fir-beginners?ref_id=saheedtajudeen',
+        link: 'https://books.zuri.team/python-for-beginners?ref_id=saheedtajudeen',
       },
       {
         id: 'pitch',
