@@ -1,0 +1,55 @@
+main,
+.links-container {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+}
+
+.social {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.link-btn {
+    width: 100%;
+    height: 68px;
+    border-radius: 8px;
+    border: none;
+    background: #EAECF0;
+    cursor: auto;
+}
+
+.button {
+    text-decoration: none;
+    color: #101828;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+}
+
+.link-btn:hover{
+    background: #D0D5DD;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+  
+.link-btn:focus, 
+.link-btn:active{
+    background: #EAECF0;
+    border: 1px solid #98A2B3;
+}
+
+.link-btn:disabled {
+    background: #FCFCFD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border: 1px solid #F2F4F7;
+}
+
+#slack {
+    display: none;
+}

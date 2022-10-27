@@ -10,17 +10,45 @@ nav {
     top: 20px;
 }
 
-.profile{
+.profile {
     width: auto;
     display: grid;
     place-items: center;
 }
 
-.profile img {
+.profile-container {
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
     height: 88px;
     width: 88px;
+    color: white;
+    border-radius: 50%;
+    margin-bottom: 14px;
+    background-image: url(/public/img/hng-profile-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
 }
+
+.profile-container:hover, 
+.profile-container:active {
+    background-color: rgba(2, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+
+.change-profile{
+    display: none;
+}
+
+.profile-container:hover>.change-profile,
+.profile-container:active>.change-profile {
+    display: block;
+}
+
 .title {
+    padding: 10px;
     font-size: 18px;
     font-weight: 700;
     line-height: 28px;

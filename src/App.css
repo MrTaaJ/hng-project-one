@@ -12,14 +12,18 @@
   border: 1px dashed #D0D5DD;
   color: #667085;
   background: #FFFFFF;
-  cursor: auto;
+  cursor: pointer;
 }
 
-.btn:active{
+.btn:hover {
   background: #F9FAFB;
+  border: 1px dashed #D0D5DD;
 }
 
-.btn:focus{
+.btn:focus,
+.btn:active {
+  background: #FFFFFF;
+  border: 1px dashed #D0D5DD;
   box-shadow: 0px 0px 0px 4px #F2F4F7;
 }
 
