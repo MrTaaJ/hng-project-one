@@ -2,8 +2,6 @@
 
 > This project is to show a quick glimpse on how versatile the interns of HNGi9 are with ReactJS.
 
-![screenshot](./app_screenshot.png)
-
 The project is to create a page like Linktree that allows a person show their personal profile and link to various digital things that they sell.
 
 ## Features
