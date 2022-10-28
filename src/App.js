@@ -14,7 +14,7 @@ function App() {
       },
       {
         id: 'slack',
-        text: 'Slack Channel',
+        text: 'Saheed Tajudeen',
         link: 'hng9.slack.com',
       },
       {
