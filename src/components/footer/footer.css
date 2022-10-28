@@ -1,0 +1,11 @@
+footer {
+    margin: 20px 0;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 20px;
+}
+
+.hng-internship {
+    color: #667085;
+    font-weight: 400;
+}

@@ -24,14 +24,7 @@ main,
     place-items: center;
 }
 
-.button {
-    text-decoration: none;
-    color: #101828;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 20px;
-    text-align: center;
-}
+
 
 .link-btn:hover{
     background: #D0D5DD;

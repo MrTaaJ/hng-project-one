@@ -31,3 +31,11 @@
   background: #F9FAFB;
   border: 1px dashed #EAECF0;
 }
+
+.button {
+  text-decoration: none;
+  color: #101828;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
