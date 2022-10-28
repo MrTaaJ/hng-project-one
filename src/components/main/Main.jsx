@@ -6,7 +6,7 @@ const Main = ({btnDetails}) => {
     <main>
       <div className="links-container">
         {btnDetails.map((btnDetail)=>(
-          <a class="button link-btn" key={btnDetail.id} href={btnDetail.link}>
+          <a class="button link-btn" id={btnDetail.id} key={btnDetail.id} href={btnDetail.link}>
             {btnDetail.text}
           </a>
         ))}
