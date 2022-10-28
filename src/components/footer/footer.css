@@ -1,5 +1,5 @@
 footer {
-    margin: 20px 0;
+    margin: 50px 0;
     display: flex;
     flex-flow: column nowrap;
     gap: 20px;
@@ -8,4 +8,15 @@ footer {
 .hng-internship {
     color: #667085;
     font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+    footer {
+        margin: 50px -100px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        gap: 20px;
+        padding: 20px;
+    }
 }
