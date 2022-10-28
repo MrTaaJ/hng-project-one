@@ -16,7 +16,7 @@ The project is to create a page like Linktree that allows a person show their pe
 
 ## Live Demo
 
-[Live Demo Link](https://#)
+[Live Demo Link](https://hng9-project-one.netlify.app/)
 
 ### Development (Running locally)
 
