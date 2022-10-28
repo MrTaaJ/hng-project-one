@@ -1,6 +1,6 @@
-const Button = ({type, isDisabled, icon}) => {
+const Button = ({type, isDisabled, icon, device}) => {
   return (
-    <button className="btn" type={type} disabled={isDisabled}>
+    <button className={`btn btn-${device}`} type={type} disabled={isDisabled}>
         {icon}
     </button>
   )
