@@ -8,10 +8,10 @@ const Header = () => {
     <header>
         <nav>
           {/* <div className="hover-msg">Share Link</div> */}
-          <Button icon={<AiOutlineEllipsis size={30}/>}/>
+          <Button icon={<AiOutlineEllipsis size={30}/>} />
         </nav>
         <div className='profile'>
-            <div className='profile-container' id='profile_img'>
+            <div className='profile-container' id='profile__img'>
               <div className='change-profile'>< BiCamera size={25} /></div>
             </div>
             <div className="title">Saheed Tajudeen</div>

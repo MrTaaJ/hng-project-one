@@ -1,4 +1,3 @@
-import ButtonLinks from './ButtonLinks'
 import './main.css'
 import Social from './Social'
 
@@ -7,7 +6,9 @@ const Main = ({btnDetails}) => {
     <main>
       <div className="links-container">
         {btnDetails.map((btnDetail)=>(
-          <ButtonLinks btnDetail={ btnDetail } />
+          <a class="button link-btn" key={btnDetail.id} href={btnDetail.link}>
+            {btnDetail.text}
+          </a>
         ))}
       </div>
       

@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/footer';
 import Header from './components/header';
 import Main from './components/main';
 
@@ -17,7 +18,7 @@ function App() {
         link: 'hng9.slack.com',
       },
       {
-        id: 'btn_zuri',
+        id: 'btn__zuri',
         text: 'Zuri Team',
         link: 'https://training.zuri.team/',
       },
@@ -27,7 +28,7 @@ function App() {
         link: 'https://books.zuri.team',
       },
       {
-        id: 'book_python',
+        id: 'book__python',
         text: 'Python Books',
         link: 'https://books.zuri.team/python-for-beginners?ref_id=saheedtajudeen',
       },
@@ -37,7 +38,7 @@ function App() {
         link: 'https://background.zuri.team',
       },
       {
-        id: 'book_design',
+        id: 'book__design',
         text: 'Design Books',
         link: 'https://books.zuri.team/design-rules',
       }
@@ -47,6 +48,7 @@ function App() {
     <div className="container">
       <Header />
       <Main btnDetails={btnDetails}/>
+      <Footer />
     </div>
   );
 }

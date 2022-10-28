@@ -20,7 +20,8 @@ main,
     border-radius: 8px;
     border: none;
     background: #EAECF0;
-    cursor: auto;
+    display: grid;
+    place-items: center;
 }
 
 .button {
