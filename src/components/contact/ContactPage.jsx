@@ -38,28 +38,54 @@ const ContactPage = () => {
       </div>
       <form onSubmit={handleSubmit}>
         <div className="full-name">
-          <label>First name</label>
+          <div className="label-input">
+            <label>First name</label>
+            <input
+              type="text"
+              name="first_name"
+              id="first_name"
+              placeholder="Enter your first name"
+              onChange={(e) => changeEventHandler(e, "firstName")}
+            />
+          </div>
+          <div className="label-input">
+            <label>Last name</label>
+            <input
+              type="text"
+              name="last_name"
+              id="last_name"
+              placeholder="Enter your last name"
+              onChange={(e) => changeEventHandler(e, "lastName")}
+            />  
+          </div>    
+        </div>
+        <div className="label-input">
+          <label>Email</label>
           <input
             type="text"
-            name="first_name"
-            value={eventFormStates.firstName}
-            id="first_name"
-            placeholder="Enter your first name"
-            onChange={(e) => changeEventHandler(e, "firstName")}
-          />
-          <label>Last name</label>
-          <input
-            type="text"
-            name="last_name"
-            value={eventFormStates.lastName}
-            id="last_name"
-            placeholder="Enter your last name"
-            onChange={(e) => changeEventHandler(e, "lastName")}
-          />              
+            name="email"
+            id="email"
+            placeholder="yourname@email.com"
+            onChange={(e) => changeEventHandler(e, "email")}
+          />  
+        </div>
+
+        <div className="label-input">
+          <label>Message</label>
+          <textarea
+              name="message"
+              id="message"
+              rows="7"
+              placeholder="Send me a message and I'll reply you as soon as possible..."
+              maxLength="500"
+              className="textarea"
+              onChange={(e) => changeEventHandler(e, "message")}
+          />   
         </div>
       </form>
     </div>
   )
 }
+// value={eventFormStates.message}
 
 export default ContactPage
