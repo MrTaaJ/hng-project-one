@@ -1,0 +1,35 @@
+.contact-container {
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+.top {
+    width: 100%;
+    margin-bottom: 48px;
+}
+
+.top > h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: #101828;
+}
+
+.top > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: #475467;
+}
+
+form, .full-name {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
