@@ -104,7 +104,7 @@ const ContactPage = ({ handleAdd }) => {
         <div className="label-input">
           <label>Email</label>
           <input
-            type="text"
+            type="email"
             name="email"
             className='email'
             id="email"
