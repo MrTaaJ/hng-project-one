@@ -1,19 +1,25 @@
 import './contact.css'
 import { useState } from "react";
 
-const ContactPage = () => {
+const ContactPage = ({ handleApp }) => {
 
   const [eventFormStates, setEventFormStates] = useState({
     firstName: "",
     lastName: "",
     email: "",
     message: "",
+    checkbox : false,
   });
 
   const changeEventHandler = (e, name) => {
-    setEventFormStates({ ...eventFormStates, [name]: e.target.value });
+    setEventFormStates({ ...eventFormStates, [name]: name === "checkbox" ? e.target.checked : e.target.value });
     console.log(eventFormStates);
   }
+
+  // const changeRadioHandler = (e) => {
+  //   setEventFormStates({ ...eventFormStates, [name]: e.target.value });
+  //   console.log(eventFormStates);
+  // }
 
   const handleSubmit = (e)=>{
     e.preventDefault()
@@ -48,6 +54,7 @@ const ContactPage = () => {
               onChange={(e) => changeEventHandler(e, "firstName")}
             />
           </div>
+
           <div className="label-input">
             <label>Last name</label>
             <input
@@ -59,6 +66,7 @@ const ContactPage = () => {
             />  
           </div>    
         </div>
+
         <div className="label-input">
           <label>Email</label>
           <input
@@ -82,10 +90,24 @@ const ContactPage = () => {
               onChange={(e) => changeEventHandler(e, "message")}
           />   
         </div>
+
+        <div className="label-checkbox">
+          <input
+              name="checkbox"
+              id="checkbox"
+              type= "checkbox"
+              onChange={(e) => changeEventHandler(e, "checkbox")}
+              checked = { eventFormStates.checkbox === true}
+          />
+          <label>You agree to providing your data to Saheed Tajudeen who may contact you.</label>
+        </div>
+
+        <button className={'btn__submit'} id = {'btn__submit'} type={"submit"}>
+          Send message
+        </button>
       </form>
     </div>
   )
 }
-// value={eventFormStates.message}
 
 export default ContactPage
