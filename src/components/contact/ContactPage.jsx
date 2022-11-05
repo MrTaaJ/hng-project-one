@@ -140,7 +140,7 @@ const ContactPage = ({ handleAdd }) => {
                 onChange={(e) => changeEventHandler(e, "checkbox")}
                 checked = { eventFormStates.checkbox === true}
             />
-            <label>You agree to providing your data to Saheed Tajudeen who may contact you.</label>
+            <label htmlFor='checkbox'>You agree to providing your data to Saheed Tajudeen who may contact you.</label>
           </div>
           {checkboxError && <div className='error-message'>{checkboxError}</div>}
         </div>
